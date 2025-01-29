@@ -7,5 +7,6 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   site: 'https://fernandoarriaga87.github.io/ainit.github.io/',
   base: '/ainit.github.io',
+  outDir: './dist',
   integrations: [tailwind()]
 });
